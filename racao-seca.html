@@ -1,0 +1,193 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>PetShop</title>
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css" media="screen" />
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
+
+
+</head>
+  <body>
+
+
+    <div class="cab">
+      <!-- LOGO -->
+      <div class="logo-container">
+        <img src="img/logo-pet.png" />
+      </div>
+
+      <!-- CAMPO DE BUSCA -->
+      <div class="buscar-centro">
+        <form class="d-flex" role="search">
+          <input
+            class="me-2"
+            type="search"
+            placeholder="Buscar..."
+            aria-label="Search"
+          />
+          <button class="btn btn-outline-secondary" type="submit">
+            <img src="img/lupa.png" width="25px" />
+          </button>
+        </form>
+      </div>
+
+      <!-- AVATAR - LOGIN - CADASTRO-->
+      <div class="login-avatar">
+        <img src="img/avatar.png" width="30px" height="30px" />
+        <p>
+          Olá, <a href="login.html">Entre </a>ou
+          <a href="cadastro.html">Cadastre-se</a>
+        </p>
+      </div>
+    </div>
+
+    <!-- INICIO DO MENU(NAVBAR)-->
+
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container-fluid">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse bg-primary" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link text-white" aria-current="page" href="index.html">Início</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="manutencao.html">Acessórios</a>
+            </li>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="racoes.html">Rações</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="higiene.html">Higiene</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="servicos.html">Serviços</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="agendamento.html">Agendamento</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- FIM DO MENU -->
+
+<!-- PAGINA DO PRODUTO/SERVIÇO -->
+
+    <div class="container">
+      <div class="card">
+        <div class="container-fliud">
+          <div class="wrapper row">
+            <div class="preview col-md-6">
+              
+              <div class="preview-pic tab-content">
+                <div id="carouselExample" class="carousel slide">
+                  <div class="carousel-inner">
+                    <div class="carousel-item active">
+                      <img src="img/racao-seca.jpg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                      <img src="img/racao-seca2.jpg" class="d-block w-100" alt="..." width="740px" height="416px">
+                    </div>
+                  </div>
+                  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Anterior</span>
+                  </button>
+                  <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Próximo</span>
+                  </button>
+                </div>
+              </div>
+              
+            </div>
+            <div class="details col-md-6">
+              <h3 class="product-title">Ração Seca</h3>
+              <div class="rating">
+                <div class="stars">
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star"></span>
+                  <span class="fa fa-star"></span>
+                </div>
+                <span class="review-no">15 reviews</span>
+              </div>
+              <br><p><b> Descrição</b></p>
+              <p class="product-description">Nossa ração seca para pets é formulada com ingredientes de alta qualidade para fornecer uma nutrição equilibrada e deliciosa para o seu animal de estimação. Com uma mistura cuidadosamente selecionada de proteínas, vitaminas e minerais essenciais, nossa ração promove uma pelagem saudável, músculos fortes e energia duradoura. Feita com ingredientes naturais e sem corantes artificiais, é uma opção nutritiva que seu pet vai adorar.</p>
+              <h4 class="price">Preço <span>R$ 15,00 </span></h4>
+              <div class="action">
+                <a href="#" class="btn btn-primary btn-lg">Comprar</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+
+
+
+    <!-- FOOTER -->
+
+    <footer class="bg-body-tertiary text-center text-lg-start">
+      <div class="container p-4">
+        <div class="row">
+          <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+            <h5 class="text-uppercase">Informações</h5>
+    
+            <ul class="list-unstyled mb-0">
+              <li>
+                <a href="manutencao.html" class="text-body">Sobre Nós</a>
+              </li>
+              <li>
+                <a href="manutencao.html" class="text-body">Central de atendimento</a>
+              </li>
+              <li>
+                <a href="manutencao.html" class="text-body">Dúvidas frequentes</a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+            <h5 class="text-uppercase mb-0">Políticas</h5>
+    
+            <ul class="list-unstyled">
+              <li>
+                <a href="manutencao.html" class="text-body">Trocas</a>
+              </li>
+              <li>
+                <a href="manutencao.html" class="text-body">Devoluções</a>
+              </li>
+              <li>
+                <a href="manutencao.html" class="text-body">Pagamentos</a>
+              </li>
+              <li>
+                <a href="manutencao.html" class="text-body">Privacidade</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+    
+      <!-- Copyright -->
+      <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.05);">
+        CNPJ: 00.000.000/0000-00
+      </div>
+      <!-- Copyright -->
+    </footer>
+
+  </body>
+</html>
